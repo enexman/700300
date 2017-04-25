@@ -1,4 +1,4 @@
-# template by Murat v: 0.2.0
+# 700300
 
 ### Запуск проекта
 ```
@@ -11,29 +11,29 @@ npm run deploy - отправка содержимого папки dist на х
 
 ### Структура папок и файлов
 ```
-├── app/                       # 
-│   ├── css/                   # 
-│   │   └── blocks/            # 
-│   │   │   └── block.scss     # 
+├── app/                       #
+│   ├── css/                   #
+│   │   └── blocks/            #
+│   │   │   └── block.scss     #
 |   |   ├── _mixins.scss       #
 |   |   ├── _scaffolding.scss  #
 |   |   ├── _variables.scss    #
 |   |   ├── style.scss         #
 |   |   └── style.css          #
-│   ├── fonts/                 # 
-│   ├── img/                   # 
-│   ├── js/                    # 
-│   │   └── main.js            # 
-├── dist/                      # 
-│   ├── css/                   # 
-│   │   └── style.min.css      # 
-│   ├── fonts/                 # 
-│   ├── img/                   # 
-│   ├── js/                    # 
-│   │   └── main.min.js        # 
+│   ├── fonts/                 #
+│   ├── img/                   #
+│   ├── js/                    #
+│   │   └── main.js            #
+├── dist/                      #
+│   ├── css/                   #
+│   │   └── style.min.css      #
+│   ├── fonts/                 #
+│   ├── img/                   #
+│   ├── js/                    #
+│   │   └── main.min.js        #
 │   ├── .htaccess              #
-│   ├── humans.txt             # 
-│   ├── robots.txt             # 
-│   ├── 404.html               # 
-│   └── index.html             # 
-└── README.md                  # 
+│   ├── humans.txt             #
+│   ├── robots.txt             #
+│   ├── 404.html               #
+│   └── index.html             #
+└── README.md                  #
