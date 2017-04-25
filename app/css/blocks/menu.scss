@@ -1,0 +1,77 @@
+.menu {
+
+    &__list {
+        width: 690px;
+        margin: 0 auto;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 11px;
+
+    }
+
+    &__item {
+        width: 340px;
+        height: 240px;
+        border-radius: 12px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    &__item:nth-child(2n) {
+        padding-right: 0;
+    }
+
+    &__desc {
+        text-align: center;
+        font-size: 24px;
+        margin-top: 170px;
+        letter-spacing: 1px;
+    }
+}
+
+.bg-pizza {
+    background-image: url("../../img/pizza.png");
+    background-repeat: no-repeat;
+}
+
+.bg-rolls {
+    background-image: url("../../img/rolls.png");
+    background-repeat: no-repeat;
+}
+
+.bg-WOK {
+    background-image: url("../../img/WOK.png");
+    background-repeat: no-repeat;
+}
+
+.bg-pasta {
+    background-image: url("../../img/pasta.png");
+    background-repeat: no-repeat;
+}
+
+.bg-juice {
+    background-image: url("../../img/juice.png");
+    background-repeat: no-repeat;
+}
+
+.bg-zak {
+    background-image: url("../../img/zak.png");
+    background-repeat: no-repeat;
+}
+
+.bg-sal {
+    background-image: url("../../img/sal.png");
+    background-repeat: no-repeat;
+}
+
+.bg-des {
+    background-image: url("../../img/des.png");
+    background-repeat: no-repeat;
+}
+
+.bg-sup {
+    background-image: url("../../img/sup.png");
+    background-repeat: no-repeat;
+}

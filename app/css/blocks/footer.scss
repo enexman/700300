@@ -1,0 +1,43 @@
+.footer {
+    width: 690px;
+    height: 90px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0 30px;
+
+    background: rgba(0, 0, 0, 0.6);
+    &__town {
+        position: relative;
+        font-size: 28px;
+        font-weight: 300;
+        margin-left: -250px;
+        background: transparent;
+        color: white;
+        outline: none;
+        border: none;
+
+        & option {
+            color: black;
+            background: transparent;
+        }
+
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 32px;
+            height: 34px;
+            background-image: url("../../img/town.svg");
+            left: 0;
+            top: 0;
+        }
+    }
+
+    &__btn {
+        margin-top: 32px;
+        font-size: 26px;
+        color: #e74b3b;
+        text-decoration: none;
+    }
+}

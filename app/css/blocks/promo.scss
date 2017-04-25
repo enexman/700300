@@ -1,0 +1,47 @@
+.promo {
+    position: relative;
+    height: 346px;
+    width: 690px;
+    margin: 0 auto;
+    background: url("../../img/promo.png") no-repeat;
+    margin-bottom: 32px;
+
+    &__wrap {
+        position: absolute;
+        //background-color: rgba(0, 0, 0, 0.8);
+        left: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 690px;
+        height: 138px;
+    }
+
+    &__slogan {
+        font-size: 24px;
+        padding-left: 38px;
+        width: 328px;
+        margin-top: 44px;
+    }
+
+    &__link {
+        font-size: 24px;
+        color: #FFFFFF;
+        margin-right: 79px;
+        font-weight: 400;
+        margin-top: 59px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            background-image: url("../../img/up.svg");
+            right: -49px;
+            top: 0;
+        }
+    }
+}

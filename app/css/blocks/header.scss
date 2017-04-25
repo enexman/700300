@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    height: 90px;
+    width: 690px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+    &__menu {
+        height: 50px;
+        width: 50px;
+        background: url("../../img/burger.svg") no-repeat;
+        margin-top: 26px;
+    }
+}
+
+.bucket {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: url("../../img/bucket.svg") no-repeat;
+    margin-top: 14px;
+    position: relative;
+
+    & span {
+        position: absolute;
+        box-sizing: border-box;
+        height: 22px;
+        width: 22px;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 50%;
+        left: 34px;
+        top: 3px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background-color: #e74b3b;
+            border-radius: 50%;
+            right: 0;
+            top: 0;
+        }
+    }
+
+}
