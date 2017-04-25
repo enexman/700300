@@ -3,7 +3,7 @@
     height: 346px;
     width: 690px;
     margin: 0 auto;
-    background: url("../../img/promo.png") no-repeat;
+    background: url("./../img/promo.png") no-repeat;
     margin-bottom: 32px;
 
     &__wrap {
@@ -39,7 +39,7 @@
             position: absolute;
             width: 32px;
             height: 32px;
-            background-image: url("../../img/up.svg");
+            background-image: url("./../img/up.svg");
             right: -49px;
             top: 0;
         }
